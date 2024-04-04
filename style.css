@@ -1,9 +1,14 @@
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
 #thumb-container img {
-    height: 100px;
-    width: auto;
-  }
-  
-  .large-image img {
-    max-width: 100vw;
-    max-height: 100vh;
-  }
+  height: 100px;
+  width: auto;
+  background-attachment: scroll;
+}
+body{
+    background-image: url("https://cdn.esahubble.org/archives/images/screen/heic1501a.jpg");
+}
