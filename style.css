@@ -1,4 +1,3 @@
-
 div {
   display: flex;
   justify-content: center;
@@ -9,6 +8,11 @@ div {
   width: auto;
   background-attachment: scroll;
 }
-body{
-    background-image: url("https://cdn.esahubble.org/archives/images/screen/heic1501a.jpg");
+body {
+  background-image: url("https://cdn.esahubble.org/archives/images/screen/heic1501a.jpg");
+}
+
+.large-image img {
+  max-width: 100vw;
+  max-height: 100vh;
 }
