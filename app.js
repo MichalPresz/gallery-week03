@@ -7,17 +7,17 @@ let imageIndex = 0; // this currently does nothing, but is a start
 // get some images
 const images = [
   {
-    url: "https://images.unsplash.com/photo-1590346320751-876ff414c050?q=80&w=2086&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Space",
+    url: "https://cdn.esahubble.org/archives/images/screen/heic0910h.jpg",
+    alt: "Nebula",
   },
   {
-    url: "https://images.unsplash.com/photo-1616529927764-173a543493ee?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Circuit board",
+    url: "https://cdn.esahubble.org/archives/images/screen/heic0515a.jpg",
+    alt: "Nebula",
   },
   {
-    url: "https://images.unsplash.com/photo-1624806992221-12d8062c35e5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Cheese",
-  },
+    url: "https://cdn.esahubble.org/archives/images/screen/heic1307a.jpg",
+    alt: "Nebula",
+  }, 
 ];
 
 // put those images onto the page as thumbnails
@@ -55,6 +55,7 @@ function createBigImage(image) {
   // add it to the page
   displayImage.appendChild(bigImg);
 }
+
 
 // actually do the things
 createThumbnails();
